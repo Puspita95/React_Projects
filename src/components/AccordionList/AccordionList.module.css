@@ -1,0 +1,38 @@
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10px;
+  width: 50%;
+}
+.accordion {
+  display: flex;
+  background-color: #7f7d86;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+}
+.name {
+  margin: 0;
+}
+
+.f50 {
+  flex: 50%;
+}
+
+.icon {
+  position: relative;
+  left: 85%;
+  font-weight: bold;
+}
+
+.icon.active {
+  rotate: 180deg;
+}
